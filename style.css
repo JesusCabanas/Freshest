@@ -1,0 +1,134 @@
+a, h1, h2, h3, div, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "macondo";
+    
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#nav a {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+#nav h3 {
+    font-size: 40px;
+    color: white;
+
+}
+#content {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1250px;
+
+
+    
+
+}
+#main {
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    margin-top: -150px;
+    left: 0;
+    width: 100%;
+}
+#main p {
+    font-size: 90px;
+    margin-top: 30px;
+    color: white;
+
+}
+h1 {
+    display: inline;
+    font-size: 160px;
+    color: white;
+    border-bottom: 3px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+img {
+    height: 500px;
+    width: 700px;
+    
+}
+p {
+    color: white;
+}
+h2 {
+    color: white;
+    font-size: 60px;
+
+}
+#bread {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+}
+#imgB {
+    max-width: 100%;
+}
+
+#breadT {
+    display: inline;
+    font-size: 30px;
+    color: white;
+    padding-left: 130px;
+    padding-right: 30px;
+}
+#pine {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+
+}
+#imgP {
+    max-width: 100%;
+}
+#pineT {
+    display: inline;
+    font-size: 30px;
+    color: white;
+    padding-right: 130px;
+    padding-left: 30px;
+}
+#pasta {
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    
+}
+#imgP {
+    max-width: 100%;
+}
+
+#pastaT {
+    display: inline;
+    font-size: 30px;
+    color: white;
+    padding-left: 130px;
+    padding-right: 30px;
+}
+
